@@ -27,7 +27,6 @@ h3{
 
 a{
     color: #11999E;
-    font-weight: normal;
 }
 
 hr{
@@ -64,56 +63,38 @@ p{
     bottom: 300px;
 }
 
+.profile{
+    width: 50%;
+    margin: 30px auto;
+}
+
 .skill-row{
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto 70px;
     text-align: left;
 }
 
 .html-skill-icon{
-    width: 25%;
     float: left;
     margin-right: 30px;
-}
-
-.css-skill-icon{
-    width: 25%;
-    float: right;
-    margin-left: 30px;
 }
 
 .html-paragragh{
     clear: right;
 }
 
-.css-paragragh{
-    clear: left;
+.css-skill-icon{
+    float: left;
+    margin-right: 30px;
 }
 
-.profile{
-    width: 50%;
-    margin: 30px auto;
+.css-paragragh{
+    clear: right;
 }
 
 .contact-me{
     width: 50%;
     margin: auto auto 50px;
-}
-
-.bottom-container{
-    background-color: #66BFBF;
-    padding: 20px;
-}
-
-.footer-link{
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px;
-}
-
-.footer-paragragh{
-    color: #EAF6F6;
-    font-weight: lighter;
 }
 
 .btn {
@@ -144,3 +125,26 @@ p{
     background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
     text-decoration: none;
   }
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 20px;
+}
+
+.footer-link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: normal;
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-weight: lighter;
+}
+
+
