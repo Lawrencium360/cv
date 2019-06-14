@@ -71,25 +71,25 @@ p{
 .skill-row{
     width: 50%;
     margin: 50px auto 70px;
-    text-align: left;
+    text-align: auto;
 }
 
 .html-skill-icon{
-    float: left;
-    margin-right: 30px;
+    /* float: left; */
+    /* margin-right: 30px; */
 }
 
 .html-paragragh{
-    clear: right;
+    /* clear: right; */
 }
 
 .css-skill-icon{
-    float: left;
-    margin-right: 30px;
+    /* float: left; */
+    /* margin-right: 30px; */
 }
 
 .css-paragragh{
-    clear: right;
+    /* clear: right; */
 }
 
 .contact-me{
